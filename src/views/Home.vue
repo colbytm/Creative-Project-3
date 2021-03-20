@@ -12,11 +12,11 @@
       </ol>
     </div>
     <div class = "search">
-      <input type = "text" name = "search" id = "search" placeholder="Player's Name"/>
+      <input v-model="searchText" id = "search" placeholder="Player's Name" />
     </div>
     <div class = "player-flex">
       <div class = "player-list">
-
+        <PlayerList :players="players" />
       </div>
       <div class = "team-list">
         <div class = "team-list-wrap">
@@ -31,12 +31,29 @@
     </div>
   </div>
 </template>
+
+
 <script>
-// @ is an alias to /src
-
-
-
+import PlayerList from "../components/PlayerList.vue";
+export default {
+  name: 'Home',
+  components: {
+    PlayerList
+  },
+  data(){
+    return{
+      searchText: '',
+    }
+  },
+  computed: {
+    players(){
+      return this.$root.$data.players.filter(player => player.name.toLowerCase().search(this.searchText.toLowerCase()) >= 0);
+    }
+  }
+}
 </script>
+
+
 
 <style scoped>
 .header-instructs {
@@ -76,6 +93,10 @@
   flex-basis: 30%;
 }
 
+.team-list-wrap {
+  min-height: 500px;
+}
+
 .team-list-wrap{
   border: 2px solid black;
 }
@@ -88,6 +109,4 @@
 .team-player-list {
   padding: 15px;
 }
-
-
 </style>
