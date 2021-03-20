@@ -1,5 +1,341 @@
 let mock = [
     {
+        id:1,
+        name: "Donovan Mitchell",
+        team: "Utah Jazz",
+        position: "Guard",
+        stats: {
+            fieldGoal: 42.3,
+            assists: 5.4,
+            rebounds: 4.5,
+            steals: 1.0
+        },
+        rating: 99,
+        image: "Mitchell"
+    },
+    {
+        id:2,
+        name: "Anthony Daivs",
+        team: "Los Angeles Lakers",
+        position: "Center",
+        stats: {
+            fieldGoal: 53.3,
+            assists: 3.0,
+            rebounds: 8.4,
+            steals: 0.8
+        },
+        rating: 99,
+        image: "Davis"
+    },
+    {
+        id:3,
+        name: "Devin Booker",
+        team: "Phoenix Suns",
+        position: "Guard",
+        stats: {
+            fieldGoal: 50.1,
+            assists: 4.7,
+            rebounds: 3.7,
+            steals: 0.8
+        },
+        rating: 99,
+        image: "Booker"
+    },
+    {
+        id: 4,
+        name: "Kawhi Leonard",
+        team: "Los Angeles Clippers",
+        position: "Forward",
+        stats: {
+            fieldGoal: 51.2,
+            assists: 4.9,
+            rebounds: 6.4,
+            steals: 1.6
+        },
+        rating: 99,
+        image: "Leonard"
+    },
+    {
+        id: 5,
+        name: "Michael Porter Jr.",
+        team: "Denver Nuggets",
+        position: "Forward",
+        stats: {
+            fieldGoal: 52.5,
+            assists: 0.8,
+            rebounds: 7.4,
+            steals: 0.8
+        },
+        rating: 99,
+        image: "Porter"
+    },
+    {
+        id: 6,
+        name: "CJ McCollum",
+        team: "Portland Trail Blazers",
+        position: "Guard",
+        stats: {
+            fieldGoal: 44.9,
+            assists: 4.6,
+            rebounds: 3.8,
+            steals: 1.2
+        },
+        rating: 99,
+        image: "McCollum"
+    },
+    {
+        id: 7,
+        name: "Lonnie Walker IV",
+        team: "San Antonio Spurs",
+        position: "Forward",
+        stats: {
+            fieldGoal: 41.4,
+            assists: 1.7,
+            rebounds: 2.8,
+            steals: 0.5
+        },
+        rating: 99,
+        image: "WalkerIV"
+    },
+    {
+        id:8,
+        name: "Kristaps Porzingis",
+        team: "Dallas Mavericks",
+        position: "Center",
+        stats: {
+            fieldGoal: 48.7,
+            assists: 1.2,
+            rebounds: 8.6,
+            steals: 0.4
+        },
+        rating: 99,
+        image: "Porzingis"
+    },
+    {
+        id:9,
+        name: "Stephen Curry",
+        team: "Golden State Warriors",
+        position: "Guard",
+        stats: {
+            fieldGoal: 47.5,
+            assists: 6.2,
+            rebounds: 5.3,
+            steals: 1.4
+        },
+        rating: 99,
+        image: "Curry"
+    },
+    {
+        id:10,
+        name: "Ja Morant",
+        team: "Memphis Grizzlies",
+        position: "Guard",
+        stats: {
+            fieldGoal: 44.3,
+            assists: 7.6,
+            rebounds: 3.3,
+            steals: 1.0
+        },
+        rating: 99,
+        image: "Morant"
+    },
+    {
+        id:11,
+        name: "De'Aaron Fox",
+        team: "Sacramento Kings",
+        position: "Guard",
+        stats: {
+            fieldGoal: 46.9,
+            assists: 7.5,
+            rebounds: 3.4,
+            steals: 1.3
+        },
+        rating: 99,
+        image: "Fox"
+    },
+    {
+        id:12,
+        name: "Al Horford",
+        team: "Oklahoma City Thunder",
+        position: "Center",
+        stats: {
+            fieldGoal: 44.7,
+            assists: 3.3,
+            rebounds: 6.7,
+            steals: 0.9
+        },
+        rating: 99,
+        image: "Horford"
+    },
+    {
+        id:13,
+        name: "Zion Williamson",
+        team: "New Orleans Pelicans",
+        position: "forward",
+        stats: {
+            fieldGoal: 61.8,
+            assists: 3.5,
+            rebounds: 7.0,
+            steals: 0.9
+        },
+        rating: 99,
+        image: "Williamson"
+    },
+    {
+        id:14,
+        name: "John Wall",
+        team: "Houston Rockets",
+        position: "Guard",
+        stats: {
+            fieldGoal: 42.5,
+            assists: 6.1,
+            rebounds: 3.2,
+            steals: 0.8
+        },
+        rating: 99,
+        image: "Wall"
+    },
+    {
+        id:15,
+        name: "D'Angelo Russell",
+        team: "Minnesota Timberwolves",
+        position: "Guard",
+        stats: {
+            fieldGoal: 42.6,
+            assists: 5.1,
+            rebounds: 2.6,
+            steals: 1.1
+        },
+        rating: 99,
+        image: "Russell"
+    },
+    {
+        id:16,
+        name: "Rudy Gobert",
+        team: "Utah Jazz",
+        position: "Center",
+        stats: {
+            fieldGoal: 64.1,
+            assists: 1.3,
+            rebounds: 13.5,
+            steals: 0.5
+        },
+        rating: 99,
+        image: "Gobert"
+    },
+    {
+        id:17,
+        name: "Lebron James",
+        team: "Los Angeles Lakers",
+        position: "Forward",
+        stats: {
+            fieldGoal: 51.3,
+            assists: 8.0,
+            rebounds: 8.1,
+            steals: 1.1
+        },
+        rating: 99,
+        image: "James"
+    },
+    {
+        id:18,
+        name: "Chris Paul",
+        team: "Phoenix Suns",
+        position: "Guard",
+        stats: {
+            fieldGoal: 48.7,
+            assists: 8.7,
+            rebounds: 8.7,
+            steals: 1.4
+        },
+        rating: 99,
+        image: "Paul"
+    },
+    {
+        id:19,
+        name: "Paul George",
+        team: "Los Angeles Clippers",
+        position: "Forward",
+        stats: {
+            fieldGoal: 48.4,
+            assists: 5.3,
+            rebounds: 6.1,
+            steals: 1.1
+        },
+        rating: 99,
+        image: "George"
+    },
+    {
+        id:20,
+        name: "Nikola Jokic",
+        team: "Denver Nuggets",
+        position: "Center",
+        stats: {
+            fieldGoal: 56.5,
+            assists: 8.6,
+            rebounds: 11.1,
+            steals: 1.6
+        },
+        rating: 99,
+        image: "Jokic"
+    },
+    {
+        id:21,
+        name: "Carmelo Anthony",
+        team: "Portland Trail Blazers",
+        position: "Forward",
+        stats: {
+            fieldGoal: 41.7,
+            assists: 1.8,
+            rebounds: 3.3,
+            steals: 0.9
+        },
+        rating: 99,
+        image: "Anthony"
+    },
+    {
+        id:22,
+        name: "DeMar DeRozan",
+        team: "San Antonio Spurs",
+        position: "Forward",
+        stats: {
+            fieldGoal: 49.3,
+            assists: 7.3,
+            rebounds: 4.6,
+            steals: 0.9
+        },
+        rating: 99,
+        image: "DeRozan"
+    },
+    {
+        id:23,
+        name: "Kelly Oubre Jr.",
+        team: "Golden State Warriors",
+        position: "Guard",
+        stats: {
+            fieldGoal: 43.7,
+            assists: 1.3,
+            rebounds: 5.8,
+            steals: 1.1
+        },
+        rating: 99,
+        image: "Oubre"
+    },
+    {
+        id:24,
+        name: "Lonzo Ball",
+        team: "New Orleans Pelicans",
+        position: "Guard",
+        stats: {
+            fieldGoal: 42.5,
+            assists: 5.6,
+            rebounds: 4.2,
+            steals: 1.3
+        },
+        rating: 99,
+        image: "Ball-Lonzo"
+    },
+    {
         id:25,
         name: "Joel Embiid",
         team: "Philadelphia 76ers",
@@ -349,6 +685,25 @@ let mock = [
         rating: 99,
         image: "Antetokounmpo"
     },
+<<<<<<< HEAD
 ]
 
 export default mock;
+=======
+    {
+        id:50,
+        name: "Pascal Siakam",
+        team: "Toronto Raptors",
+        position: "Forward",
+        stats: {
+            fieldGoal: 44.7,
+            assists: 4.8,
+            rebounds: 7.3,
+            steals: 1.1
+        },
+        rating: 99,
+        image: "Siakam"
+    },
+    
+]
+>>>>>>> 3f4b32b272a30822bace2a872c0d032f0da5d896
