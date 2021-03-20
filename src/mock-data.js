@@ -10,7 +10,7 @@ let mock = [
             rebounds: 4.5,
             steals: 1.0
         },
-        rating: 99,
+        rating: 90,
         image: "Mitchell"
     },
     {
@@ -24,7 +24,7 @@ let mock = [
             rebounds: 8.4,
             steals: 0.8
         },
-        rating: 99,
+        rating: 97,
         image: "Davis"
     },
     {
@@ -38,7 +38,7 @@ let mock = [
             rebounds: 3.7,
             steals: 0.8
         },
-        rating: 99,
+        rating: 92,
         image: "Booker"
     },
     {
@@ -52,7 +52,7 @@ let mock = [
             rebounds: 6.4,
             steals: 1.6
         },
-        rating: 99,
+        rating: 93,
         image: "Leonard"
     },
     {
@@ -66,7 +66,7 @@ let mock = [
             rebounds: 7.4,
             steals: 0.8
         },
-        rating: 99,
+        rating: 86,
         image: "Porter"
     },
     {
@@ -80,7 +80,7 @@ let mock = [
             rebounds: 3.8,
             steals: 1.2
         },
-        rating: 99,
+        rating: 89,
         image: "McCollum"
     },
     {
@@ -94,7 +94,7 @@ let mock = [
             rebounds: 2.8,
             steals: 0.5
         },
-        rating: 99,
+        rating: 83,
         image: "WalkerIV"
     },
     {
@@ -108,7 +108,7 @@ let mock = [
             rebounds: 8.6,
             steals: 0.4
         },
-        rating: 99,
+        rating: 88,
         image: "Porzingis"
     },
     {
@@ -122,7 +122,7 @@ let mock = [
             rebounds: 5.3,
             steals: 1.4
         },
-        rating: 99,
+        rating: 98,
         image: "Curry"
     },
     {
@@ -136,7 +136,7 @@ let mock = [
             rebounds: 3.3,
             steals: 1.0
         },
-        rating: 99,
+        rating: 95,
         image: "Morant"
     },
     {
@@ -150,7 +150,7 @@ let mock = [
             rebounds: 3.4,
             steals: 1.3
         },
-        rating: 99,
+        rating: 86,
         image: "Fox"
     },
     {
@@ -164,7 +164,7 @@ let mock = [
             rebounds: 6.7,
             steals: 0.9
         },
-        rating: 99,
+        rating: 85,
         image: "Horford"
     },
     {
@@ -178,7 +178,7 @@ let mock = [
             rebounds: 7.0,
             steals: 0.9
         },
-        rating: 99,
+        rating: 92,
         image: "Williamson"
     },
     {
@@ -192,7 +192,7 @@ let mock = [
             rebounds: 3.2,
             steals: 0.8
         },
-        rating: 99,
+        rating: 89,
         image: "Wall"
     },
     {
@@ -206,7 +206,7 @@ let mock = [
             rebounds: 2.6,
             steals: 1.1
         },
-        rating: 99,
+        rating: 90,
         image: "Russell"
     },
     {
@@ -220,7 +220,7 @@ let mock = [
             rebounds: 13.5,
             steals: 0.5
         },
-        rating: 99,
+        rating: 94,
         image: "Gobert"
     },
     {
@@ -248,7 +248,7 @@ let mock = [
             rebounds: 8.7,
             steals: 1.4
         },
-        rating: 99,
+        rating: 92,
         image: "Paul"
     },
     {
@@ -262,7 +262,7 @@ let mock = [
             rebounds: 6.1,
             steals: 1.1
         },
-        rating: 99,
+        rating: 90,
         image: "George"
     },
     {
@@ -276,7 +276,7 @@ let mock = [
             rebounds: 11.1,
             steals: 1.6
         },
-        rating: 99,
+        rating: 95,
         image: "Jokic"
     },
     {
@@ -290,7 +290,7 @@ let mock = [
             rebounds: 3.3,
             steals: 0.9
         },
-        rating: 99,
+        rating: 87,
         image: "Anthony"
     },
     {
@@ -304,7 +304,7 @@ let mock = [
             rebounds: 4.6,
             steals: 0.9
         },
-        rating: 99,
+        rating: 89,
         image: "DeRozan"
     },
     {
@@ -318,7 +318,7 @@ let mock = [
             rebounds: 5.8,
             steals: 1.1
         },
-        rating: 99,
+        rating: 86,
         image: "Oubre"
     },
     {
@@ -332,7 +332,7 @@ let mock = [
             rebounds: 4.2,
             steals: 1.3
         },
-        rating: 99,
+        rating: 87,
         image: "Ball-Lonzo"
     },
     {
@@ -346,7 +346,7 @@ let mock = [
             rebounds: 11.5,
             steals: 1.2
         },
-        rating: 99,
+        rating: 98,
         image: "Embiid"
     },
     {
@@ -360,7 +360,7 @@ let mock = [
             rebounds: 3.3,
             steals: 0.6
         },
-        rating: 82,
+        rating: 78,
         image: "Dragic"
     },
     {
@@ -374,7 +374,7 @@ let mock = [
             rebounds: 4.3,
             steals: 2
         },
-        rating: 79,
+        rating: 75,
         image: "Burks"
     },
     {
@@ -388,7 +388,7 @@ let mock = [
             rebounds: 7.5,
             steals: 2
         },
-        rating: 99,
+        rating: 82,
         image: "Jordan"
     },
     {
@@ -402,7 +402,7 @@ let mock = [
             rebounds: 4.1,
             steals: 0.8
         },
-        rating: 99,
+        rating: 90,
         image: "Young"
     },
     {
@@ -411,12 +411,12 @@ let mock = [
         team: "Brooklyn Nets",
         position: "Power Forward",
         stats: {
-            fieldGoal: 50,
-            assists: 5,
-            rebounds: 5,
-            steals: 2
+            fieldGoal: 48,
+            assists: 4,
+            rebounds: 7,
+            steals: 0.9
         },
-        rating: 99,
+        rating: 97,
         image: "Durant"
     },
     {
@@ -425,12 +425,12 @@ let mock = [
         team: "Miami Heat",
         position: "Power Forward",
         stats: {
-            fieldGoal: 50,
-            assists: 5,
-            rebounds: 5,
-            steals: 2
+            fieldGoal: 60,
+            assists: 3,
+            rebounds: 8,
+            steals: 0.2
         },
-        rating: 99,
+        rating: 78,
         image: "Olynyk"
     },
     {
@@ -440,11 +440,11 @@ let mock = [
         position: "Point Guard",
         stats: {
             fieldGoal: 50,
-            assists: 5,
-            rebounds: 5,
-            steals: 2
+            assists: 8,
+            rebounds: 4,
+            steals: 1
         },
-        rating: 99,
+        rating: 85,
         image: "Ball"
     },
     {
@@ -453,12 +453,12 @@ let mock = [
         team: "Washington Bullets",
         position: "forward",
         stats: {
-            fieldGoal: 50,
-            assists: 5,
-            rebounds: 5,
-            steals: 2
+            fieldGoal: 45,
+            assists: 3,
+            rebounds: 4,
+            steals: 0.5
         },
-        rating: 99,
+        rating: 86,
         image: "Beal"
     },
     {
@@ -467,12 +467,12 @@ let mock = [
         team: "Indiana Pacers",
         position: "Shooting Guard",
         stats: {
-            fieldGoal: 50,
-            assists: 5,
-            rebounds: 5,
-            steals: 2
+            fieldGoal: 45,
+            assists: 3,
+            rebounds: 2,
+            steals: 0.1
         },
-        rating: 99,
+        rating: 79,
         image: "Lamb"
     },
     {
@@ -481,12 +481,12 @@ let mock = [
         team: "Brooklyn Nets",
         position: "Shooting Guard",
         stats: {
-            fieldGoal: 50,
-            assists: 5,
-            rebounds: 5,
-            steals: 2
+            fieldGoal: 55,
+            assists: 6,
+            rebounds: 4,
+            steals: 1
         },
-        rating: 99,
+        rating: 98,
         image: "Harden"
     },
     {
@@ -495,12 +495,12 @@ let mock = [
         team: "Miami Heat",
         position: "Small Forward",
         stats: {
-            fieldGoal: 50,
-            assists: 5,
-            rebounds: 5,
-            steals: 2
+            fieldGoal: 48.1,
+            assists: 7.5,
+            rebounds: 7.5,
+            steals: 2.1
         },
-        rating: 99,
+        rating: 93,
         image: "Butler"
     },
     {
@@ -514,7 +514,7 @@ let mock = [
             rebounds: 5,
             steals: 2
         },
-        rating: 99,
+        rating: 84,
         image: "Plumlee"
     },
     {
@@ -523,12 +523,12 @@ let mock = [
         team: "Milwaukee Bucks",
         position: "Center",
         stats: {
-            fieldGoal: 50,
-            assists: 5,
-            rebounds: 5,
-            steals: 2
+            fieldGoal: 60.6,
+            assists: 3.6,
+            rebounds: 9.5,
+            steals: 0.8
         },
-        rating: 99,
+        rating: 86,
         image: "Lopez"
     },
     {
@@ -537,12 +537,12 @@ let mock = [
         team: "Boston Celtics",
         position: "Point Guard",
         stats: {
-            fieldGoal: 50,
-            assists: 5,
-            rebounds: 5,
-            steals: 2
+            fieldGoal: 38.8,
+            assists: 4.6,
+            rebounds: 3.5,
+            steals: 1.0
         },
-        rating: 99,
+        rating: 88,
         image: "Walker"
     },
     {
@@ -551,12 +551,12 @@ let mock = [
         team: "Chicago Bulls",
         position: "Point Guard",
         stats: {
-            fieldGoal: 50,
-            assists: 5,
-            rebounds: 5,
-            steals: 2
+            fieldGoal: 41.4,
+            assists: 4.8,
+            rebounds: 4.7,
+            steals: 0.5
         },
-        rating: 99,
+        rating: 84,
         image: "White"
     },
     {
@@ -565,12 +565,12 @@ let mock = [
         team: "Toronto Raptors",
         position: "Shooting Guard",
         stats: {
-            fieldGoal: 50,
-            assists: 5,
-            rebounds: 5,
+            fieldGoal: 40.0,
+            assists: 9,
+            rebounds: 6,
             steals: 2
         },
-        rating: 99,
+        rating: 85,
         image: "VanVleet"
     },
     {
@@ -579,12 +579,12 @@ let mock = [
         team: "Indiana Pacers",
         position: "Shooting Guard",
         stats: {
-            fieldGoal: 50,
-            assists: 5,
+            fieldGoal: 40.5,
+            assists: 4.7,
             rebounds: 5,
-            steals: 2
+            steals: 1.3
         },
-        rating: 99,
+        rating: 88,
         image: "Oladipo"
     },
     {
@@ -593,12 +593,12 @@ let mock = [
         team: "Miami Heat",
         position: "Small Forward",
         stats: {
-            fieldGoal: 50,
-            assists: 5,
-            rebounds: 5,
-            steals: 2
+            fieldGoal: 38.6,
+            assists: 2.1,
+            rebounds: 3.7,
+            steals: 1
         },
-        rating: 99,
+        rating: 82,
         image: "Iguodala"
     },
     {
@@ -607,12 +607,12 @@ let mock = [
         team: "Atlanta Hawks",
         position: "Small Forward",
         stats: {
-            fieldGoal: 50,
-            assists: 5,
-            rebounds: 5,
-            steals: 2
+            fieldGoal: 51.4,
+            assists: 2.2,
+            rebounds: 5.4,
+            steals: 0.9
         },
-        rating: 99,
+        rating: 78,
         image: "Hunter"
     },
     {
@@ -621,12 +621,12 @@ let mock = [
         team: "Toronto Raptors",
         position: "Small Forward",
         stats: {
-            fieldGoal: 50,
-            assists: 5,
-            rebounds: 5,
-            steals: 2
+            fieldGoal: 31.3,
+            assists: 0.5,
+            rebounds: 3,
+            steals: 0.4
         },
-        rating: 99,
+        rating: 73,
         image: "Watanabe"
     },
     {
@@ -635,12 +635,12 @@ let mock = [
         team: "Orlando Magic",
         position: "Center",
         stats: {
-            fieldGoal: 50,
-            assists: 5,
-            rebounds: 5,
-            steals: 2
+            fieldGoal: 59.2,
+            assists: 3.5,
+            rebounds: 8,
+            steals: 1.0
         },
-        rating: 99,
+        rating: 86,
         image: "Vucevic"
     },
     {
@@ -649,12 +649,12 @@ let mock = [
         team: "Boston Celtics",
         position: "Center",
         stats: {
-            fieldGoal: 50,
-            assists: 5,
-            rebounds: 5,
-            steals: 2
+            fieldGoal: 60.1,
+            assists: 1.5,
+            rebounds: 7.8,
+            steals: 0.8
         },
-        rating: 99,
+        rating: 89,
         image: "Thompson"
     },
     {
@@ -663,12 +663,12 @@ let mock = [
         team: "New York Knicks",
         position: "Center",
         stats: {
-            fieldGoal: 50,
-            assists: 5,
-            rebounds: 5,
-            steals: 2
+            fieldGoal: 50.1,
+            assists: 0.8,
+            rebounds: 5.6,
+            steals: 1
         },
-        rating: 99,
+        rating: 84,
         image: "Gibson"
     },
     {
@@ -677,19 +677,14 @@ let mock = [
         team: "Milwaukee Bucks",
         position: "Power Forward",
         stats: {
-            fieldGoal: 50,
-            assists: 5,
-            rebounds: 5,
-            steals: 2
+            fieldGoal: 56.3,
+            assists: 6.2,
+            rebounds: 11.8,
+            steals: 1.3
         },
-        rating: 99,
+        rating: 98,
         image: "Antetokounmpo"
     },
-<<<<<<< HEAD
-]
-
-export default mock;
-=======
     {
         id:50,
         name: "Pascal Siakam",
@@ -701,9 +696,9 @@ export default mock;
             rebounds: 7.3,
             steals: 1.1
         },
-        rating: 99,
+        rating: 90,
         image: "Siakam"
-    },
-    
+    }
 ]
->>>>>>> 3f4b32b272a30822bace2a872c0d032f0da5d896
+export default mock;
+
