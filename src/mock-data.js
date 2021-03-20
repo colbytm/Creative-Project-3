@@ -1,4 +1,4 @@
-let mockData = [
+let mock = [
     {
         id:25,
         name: "Joel Embiid",
@@ -349,6 +349,6 @@ let mockData = [
         rating: 99,
         image: "Antetokounmpo"
     },
-    
-
 ]
+
+export default mock;
