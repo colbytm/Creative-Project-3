@@ -39,12 +39,7 @@
 <script>
 export default {
   methods: {
-    // add(product){
-    //   this.$root.$data.cart.push(product);
-    // }
-    playerPage(product) {
 
-    }
   },
 
   name: 'PlayerList',
