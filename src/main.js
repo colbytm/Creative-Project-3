@@ -5,7 +5,8 @@ import mock from './mock-data.js'
 Vue.config.productionTip = false
 
 let data = {
-  players: mock
+  players: mock,
+  currentTeam: [],
 }
 
 new Vue({

@@ -24,7 +24,28 @@
             <h1>Current Team</h1>
           </header>
           <div class = "team-player-list">
-            <p>Steph Curry</p>
+          <div v-for="player in team" :key="player.id">
+            <div class = "team-flex">
+              <div class = "player-name">
+                <p>{{ player.name }}</p>
+              </div>
+              <div class = "remove-player" @click="removePlayer(player)">
+                <h3>X</h3>
+              </div>
+            </div>
+            <hr>
+          </div>
+          </div>
+        </div>
+        <div class = "play">
+          <div class = "add-teams-message">
+            <p>You need to add {{ teamsLeft }} to play!</p>
+          </div>
+          <div v-if="teamsLeft > 0" class = "disabled-btn center">
+              <button disabled id = "play">Play Opponent</button>
+          </div>
+          <div v-if="teamsLeft == 0" class = "enabled-btn center">
+              <button id = "play">Play Opponent</button>
           </div>
         </div>
       </div>
@@ -42,14 +63,31 @@ export default {
   },
   data(){
     return{
-      searchText: '',
+      searchText: ''
     }
   },
   computed: {
     players(){
       return this.$root.$data.players.filter(player => player.name.toLowerCase().search(this.searchText.toLowerCase()) >= 0);
+    },
+    team: function(){
+        return this.$root.$data.currentTeam;
+    },
+    teamsLeft: function(){
+        let num =  5 - this.$root.$data.currentTeam.length;
+        return num
     }
-  }
+    // currentTeam(player){
+    //   this.currentTeam.push(player)
+    // }
+  },
+  methods: {
+    removePlayer(player){
+      this.$root.$data.currentTeam = this.$root.$data.currentTeam.filter(listPlayer => player.id !== listPlayer.id);
+    },
+
+  },
+
 }
 </script>
 
@@ -82,7 +120,6 @@ export default {
 .player-flex {
   margin-top: 100px;
   display: flex;
-  flex-wrap: wrap;
 }
 
 .player-list {
@@ -109,4 +146,71 @@ export default {
 .team-player-list {
   padding: 15px;
 }
+
+.team-header h1{
+  margin: 0;
+  padding: 21px 0;
+  background-color: rgb(138, 207, 138);
+}
+
+.team-flex {
+  display: flex;
+  align-items: center;
+}
+
+.player-name {
+  flex-basis: 95%;
+}
+
+.remove-player {
+  cursor: pointer;
+}
+
+button {
+  padding: 15px;
+}
+
+.center {
+  text-align: center;
+}
+
+
+@media (max-width: 1200px) {
+
+  .player-flex {
+    justify-content: center;
+  }
+  .player-list {
+    flex-basis: 50%;
+  }
+
+  .team-list {
+    flex-basis: 50%;
+  }
+}
+
+@media (max-width: 950px) {
+
+  .player-flex {
+    display: block;
+  }
+
+  .team-list {
+    margin-top: 50px;
+  }
+
+}
+
+@media (max-width: 800px) {
+
+  .header-instructs {
+    width: auto;
+  }
+
+  .header-instructs h1{
+    text-align: center;
+  }
+
+}
+
 </style>
