@@ -94,6 +94,7 @@ export default {
 
 
 <style scoped>
+
 .header-instructs {
   width: max-content;
   margin: 0 auto;
