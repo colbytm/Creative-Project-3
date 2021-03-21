@@ -9,7 +9,7 @@
           <div class = "row-flex-wrap">
               <div class = "row-flex">
                 <div class = "image">
-                  <img :src="'/images/players/'+player.image + '.png'">
+                  <img :src="'/Images/Players/'+player.image + '.png'">
                 </div>
                 <div class = "name">
                   <h3>{{player.name}}</h3>

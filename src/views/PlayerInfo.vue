@@ -7,7 +7,7 @@
         </div>
         <div class = "info-flex">
             <div class = "player-img">
-                <img :src="'/images/players/'+player.image + '.png'">
+                <img :src="'/Images/Players/'+player.image + '.png'">
             </div>
             <div class = "player-details">
                 <div class = "player-name">
