@@ -5,9 +5,10 @@
         <h1>Wecome to the NBA Dream Team Creator</h1>
       </header>
       <ol>
-        <li>Choose 5 players from the list below and add them to your team</li>
-        <li>Click on the player in the player in the "Players List" to see their stats</li>
-        <li>When you think you have the best team click "Play" to face off against a randomly generated team</li>
+        <li>Choose 5 players to compete against a randomly generated team</li>
+        <li>Click on a player the "Players List" to see their profile</li>
+        <li>Click the "Add to team" button in a player's profile to add them to your team</li>
+        <li>When you have selected your team click "Play Opponent" to face off against your opponent</li>
         <li>You can modify your team anytime by removing them from the "Current Team" list</li>
       </ol>
     </div>
@@ -45,7 +46,9 @@
               <button disabled id = "play">Play Opponent</button>
           </div>
           <div v-if="teamsLeft == 0" class = "enabled-btn center">
+            <router-link to="/play">
               <button id = "play">Play Opponent</button>
+            </router-link>
           </div>
         </div>
       </div>
@@ -94,7 +97,6 @@ export default {
 
 
 <style scoped>
-
 .header-instructs {
   width: max-content;
   margin: 0 auto;
@@ -169,12 +171,16 @@ export default {
 
 button {
   padding: 15px;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed !important;
 }
 
 .center {
   text-align: center;
 }
-
 
 @media (max-width: 1200px) {
 

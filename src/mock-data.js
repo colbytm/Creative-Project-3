@@ -533,7 +533,7 @@ let mock = [
     },
     {
         id:39,
-        name: "Kemba Walker,",
+        name: "Kemba Walker",
         team: "Boston Celtics",
         position: "Point Guard",
         stats: {
